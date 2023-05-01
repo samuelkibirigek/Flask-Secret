@@ -2,6 +2,7 @@
 
 <html>
 	<head>
+		{{ bootstrap.load_css() }}
 		<title>Login</title>
 	</head>
 	<body>
@@ -26,5 +27,6 @@
 			{{ form.submit }}
 		</form>
         </div>
+		{{ bootstrap.load_js() }}
 	</body>
 </html>
